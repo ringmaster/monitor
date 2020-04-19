@@ -13,6 +13,17 @@
     }
 </script>
 
+<style>
+.pass {
+    color: green;
+    font-weight: bold;    
+}
+.fail {
+    color: red;
+    font-weight: bold;
+}
+</style>
+
 <dt><strong>{site}</strong>:</dt>
 {#if textResult===undefined}
     <dd>Loading...</dd>
