@@ -42,3 +42,5 @@
 <Card site="https://ajax.aspnetcdn.com/ajax/respond/1.4.2/respond.min.js" showResponse="no" />
 
 <Card site="https://code.jquery.com/jquery-3.5.0.slim.min.js" showResponse="no" />
+
+<Card site="http://ss.owenw.com/working.txt" showResponse="yes" />
