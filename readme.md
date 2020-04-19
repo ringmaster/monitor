@@ -25,3 +25,8 @@ Customization is fairly straightforward if you are familiar with Svelte applicat
 6. Repeat the above until the page does what you want
 7. Run `npm run build` to produce distribution files for your server
 
+## CORS Note
+
+Because the check is happening inside of your browser, and not on the server, it is subject to CORS request constraints.  Unless the server you're checking has added the appropriate CORS headers, the check will likely return an error.
+
+If you're looking for additional CORS-safe URLs, you might consider CDNs that house javascript, as they are most likely to have the correct headers set.
